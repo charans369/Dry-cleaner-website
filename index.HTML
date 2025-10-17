@@ -49,15 +49,15 @@
                 <nav class="hidden md:flex space-x-8 font-medium">
                     <a href="#services" class="hover:text-secondary-teal transition duration-300">Services</a>
                     <a href="#pricing" class="hover:text-secondary-teal transition duration-300">Pricing</a>
-                    <a href="#howitworks" class="hover:text-secondary-teal transition duration-300">How It Works</a>
+                    <a href="#contact" class="hover:text-secondary-teal transition duration-300">Get In Touch</a>
                     <a href="#testimonials" class="hover:text-secondary-teal transition duration-300">Reviews</a>
                 </nav>
 
-                <!-- CTA Button (Desktop) -->
+                <!-- CTA Button (Desktop) - Replaced Pickup with Contact -->
                 <div class="hidden md:block">
-                    <button class="bg-secondary-teal text-white py-2 px-6 rounded-full font-semibold shadow-lg hover:bg-opacity-90 transition duration-300">
-                        Schedule Pickup
-                    </button>
+                    <a href="#contact" class="bg-secondary-teal text-white py-2 px-6 rounded-full font-semibold shadow-lg hover:bg-opacity-90 transition duration-300">
+                        Contact Us
+                    </a>
                 </div>
 
                 <!-- Mobile Menu Button -->
@@ -71,13 +71,9 @@
         <nav id="mobile-menu" class="hidden md:hidden bg-primary-blue text-white shadow-xl">
             <a href="#services" class="block py-3 px-4 text-sm font-semibold hover:bg-secondary-teal transition duration-300 border-t border-primary-blue/50">Services</a>
             <a href="#pricing" class="block py-3 px-4 text-sm font-semibold hover:bg-secondary-teal transition duration-300">Pricing</a>
-            <a href="#howitworks" class="block py-3 px-4 text-sm font-semibold hover:bg-secondary-teal transition duration-300">How It Works</a>
+            <a href="#contact" class="block py-3 px-4 text-sm font-semibold hover:bg-secondary-teal transition duration-300">Get In Touch</a>
             <a href="#testimonials" class="block py-3 px-4 text-sm font-semibold hover:bg-secondary-teal transition duration-300">Reviews</a>
-            <div class="p-4 border-t border-white/20">
-                <button class="w-full bg-secondary-teal text-white py-3 rounded-lg font-bold hover:bg-opacity-90 transition duration-300">
-                    Schedule Pickup
-                </button>
-            </div>
+            <!-- Removed the Schedule Pickup button from the mobile menu -->
         </nav>
     </header>
 
@@ -86,15 +82,17 @@
         <section class="bg-light-bg py-20 sm:py-28 md:py-36 text-center">
             <div class="max-w-4xl mx-auto px-4">
                 <h1 class="text-5xl sm:text-6xl font-extrabold leading-tight mb-6">
-                    Professional Dry Cleaning, Delivered to Your Door.
+                    Professional Dry Cleaning, Ready When You Are.
                 </h1>
                 <p class="text-xl text-gray-600 mb-10 max-w-2xl mx-auto">
-                    The modern way to handle laundry and garment care. Eco-friendly cleaning, meticulous service, and free pickup & delivery.
+                    The modern way to handle laundry and garment care. Contact us today to learn about our quality service options.
                 </p>
                 <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
-                    <button class="bg-secondary-teal text-white text-lg py-4 px-10 rounded-xl font-bold shadow-xl hover:shadow-2xl hover:bg-opacity-90 transition duration-300 transform hover:scale-[1.02]">
-                        Get Started - Free Pickup!
-                    </button>
+                    <!-- Updated Primary CTA -->
+                    <a href="#contact" class="bg-secondary-teal text-white text-lg py-4 px-10 rounded-xl font-bold shadow-xl hover:shadow-2xl hover:bg-opacity-90 transition duration-300 transform hover:scale-[1.02]">
+                        Get In Touch
+                    </a>
+                    <!-- Secondary CTA remains -->
                     <a href="#services" class="text-primary-blue border border-primary-blue text-lg py-4 px-10 rounded-xl font-bold hover:bg-primary-blue hover:text-white transition duration-300">
                         View Services
                     </a>
@@ -141,43 +139,7 @@
                 </div>
             </div>
         </section>
-
-        <!-- How It Works Section -->
-        <section id="howitworks" class="py-20 bg-primary-blue text-white">
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-                <span class="text-secondary-teal font-semibold uppercase tracking-wider">Simple & Convenient</span>
-                <h2 class="text-4xl font-bold mt-2 mb-12">Your Laundry Done in 3 Easy Steps</h2>
-
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-10 text-primary-blue">
-                    
-                    <!-- Step 1 -->
-                    <div class="p-8 bg-white rounded-xl shadow-2xl relative">
-                        <div class="absolute -top-6 left-1/2 transform -translate-x-1/2 bg-secondary-teal rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold text-white shadow-xl">1</div>
-                        <i data-lucide="calendar-check" class="text-primary-blue w-10 h-10 mx-auto mt-4 mb-4"></i>
-                        <h3 class="text-2xl font-bold mb-3">Schedule</h3>
-                        <p class="text-gray-600">Use our website or app to set your preferred pickup and delivery times. It takes less than 60 seconds!</p>
-                    </div>
-
-                    <!-- Step 2 -->
-                    <div class="p-8 bg-white rounded-xl shadow-2xl relative">
-                        <div class="absolute -top-6 left-1/2 transform -translate-x-1/2 bg-secondary-teal rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold text-white shadow-xl">2</div>
-                        <i data-lucide="package" class="text-primary-blue w-10 h-10 mx-auto mt-4 mb-4"></i>
-                        <h3 class="text-2xl font-bold mb-3">We Pickup & Clean</h3>
-                        <p class="text-gray-600">Our uniformed attendant arrives on time. We clean your items using our eco-friendly, non-toxic process.</p>
-                    </div>
-
-                    <!-- Step 3 -->
-                    <div class="p-8 bg-white rounded-xl shadow-2xl relative">
-                        <div class="absolute -top-6 left-1/2 transform -translate-x-1/2 bg-secondary-teal rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold text-white shadow-xl">3</div>
-                        <i data-lucide="truck" class="text-primary-blue w-10 h-10 mx-auto mt-4 mb-4"></i>
-                        <h3 class="text-2xl font-bold mb-3">Fresh Delivery</h3>
-                        <p class="text-gray-600">Your clothes are delivered back to you, sparkling clean, professionally pressed, and ready to wear.</p>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
+        
         <!-- Pricing Section -->
         <section id="pricing" class="py-20 bg-light-bg">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -220,7 +182,7 @@
                     </div>
                     
                     <p class="mt-6 text-sm text-gray-500">
-                        *All prices include free pickup and delivery within the service area. Contact us for specialty items like wedding dresses or leather.
+                        *Contact us for current availability and custom quotes on specialty items like wedding dresses or leather.
                     </p>
                 </div>
             </div>
@@ -243,7 +205,7 @@
                             <i data-lucide="star" class="icon fill-yellow-500"></i>
                             <i data-lucide="star" class="icon fill-yellow-500"></i>
                         </div>
-                        <p class="italic text-gray-700 mb-4 flex-grow">"The best dry cleaning service I've ever used. The pickup and delivery schedule is incredibly reliable, and my shirts always come back perfectly pressed and crisp. A true time-saver!"</p>
+                        <p class="italic text-gray-700 mb-4 flex-grow">"The best dry cleaning service I've ever used. The convenience is unmatched, and my shirts always come back perfectly pressed and crisp. A true time-saver!"</p>
                         <p class="font-semibold text-primary-blue">- David Chen, Marketing Executive</p>
                     </div>
 
@@ -269,7 +231,7 @@
                             <i data-lucide="star" class="icon fill-yellow-500"></i>
                             <i data-lucide="star" class="icon text-gray-400"></i>
                         </div>
-                        <p class="italic text-gray-700 mb-4 flex-grow">"Their alterations service saved my favorite jacket! Quick turnaround time and the stitching was flawless. The attention to detail here is top-notch."</p>
+                        <p class="italic text-gray-700 mb-4 flex-grow">"Their tailoring service saved my favorite jacket! Quick turnaround time and the stitching was flawless. The attention to detail here is top-notch."</p>
                         <p class="font-semibold text-primary-blue">- John B., Local Business Owner</p>
                     </div>
 
@@ -277,18 +239,53 @@
             </div>
         </section>
 
-        <!-- CTA Banner -->
-        <section class="bg-secondary-teal py-16">
-            <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between text-white text-center md:text-left">
-                <div class="mb-6 md:mb-0">
-                    <h2 class="text-3xl font-bold mb-2">Stop Doing Laundry. Start Living.</h2>
-                    <p class="text-lg opacity-90">Book your first pickup today and reclaim your time!</p>
+        <!-- New: Get In Touch / Contact Section -->
+        <section id="contact" class="py-20 bg-primary-blue">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center text-white">
+                    <span class="text-secondary-teal font-semibold uppercase tracking-wider">Let's Connect</span>
+                    <h2 class="text-4xl font-bold mt-2 mb-12">Get In Touch With Our Team</h2>
                 </div>
-                <button class="bg-primary-blue text-white text-xl py-3 px-8 rounded-full font-bold shadow-2xl hover:bg-primary-blue/90 transition duration-300 transform hover:scale-105">
-                    Schedule Pickup Now
-                </button>
+
+                <!-- Contact Info Container - Centered and full width -->
+                <div class="max-w-xl mx-auto bg-white p-8 md:p-12 rounded-xl shadow-2xl">
+                    <!-- Contact Info (Now the only content) -->
+                    <div class="text-primary-blue">
+                        <h3 class="text-3xl font-bold mb-8 text-center border-b pb-4 border-gray-200">Our Details</h3>
+                        
+                        <div class="space-y-6">
+                            <!-- Phone -->
+                            <div class="flex items-start space-x-4">
+                                <i data-lucide="phone" class="text-secondary-teal w-6 h-6 flex-shrink-0 mt-1"></i>
+                                <div>
+                                    <p class="font-semibold text-lg">Call Us</p>
+                                    <p class="text-gray-700 text-base">(555) 123-4567</p>
+                                </div>
+                            </div>
+
+                            <!-- Email -->
+                            <div class="flex items-start space-x-4">
+                                <i data-lucide="mail" class="text-secondary-teal w-6 h-6 flex-shrink-0 mt-1"></i>
+                                <div>
+                                    <p class="font-semibold text-lg">Email Us</p>
+                                    <p class="text-gray-700 text-base">info@sparkleclean.com</p>
+                                </div>
+                            </div>
+
+                            <!-- Location -->
+                            <div class="flex items-start space-x-4">
+                                <i data-lucide="map-pin" class="text-secondary-teal w-6 h-6 flex-shrink-0 mt-1"></i>
+                                <div>
+                                    <p class="font-semibold text-lg">Visit Our Location</p>
+                                    <p class="text-gray-700 text-base">123 Clean Street, Metropolis, CA 90210</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
+
     </main>
 
     <!-- Footer -->
@@ -302,7 +299,7 @@
                         <span class="text-3xl font-extrabold">SparkleClean</span>
                         <i data-lucide="droplets" class="text-secondary-teal icon"></i>
                     </a>
-                    <p class="text-sm text-gray-300">Premium dry cleaning and laundry with free pickup & delivery. Eco-friendly methods for a cleaner world.</p>
+                    <p class="text-sm text-gray-300">Premium dry cleaning and laundry with excellent in-store service and reliable drop-off options.</p>
                 </div>
 
                 <!-- Quick Links -->
@@ -311,7 +308,7 @@
                     <ul class="space-y-2 text-sm text-gray-300">
                         <li><a href="#services" class="hover:text-white transition duration-200">Our Services</a></li>
                         <li><a href="#pricing" class="hover:text-white transition duration-200">Pricing</a></li>
-                        <li><a href="#howitworks" class="hover:text-white transition duration-200">Process</a></li>
+                        <li><a href="#contact" class="hover:text-white transition duration-200">Contact Us</a></li>
                         <li><a href="#" class="hover:text-white transition duration-200">FAQs</a></li>
                     </ul>
                 </div>
@@ -337,8 +334,10 @@
 
                 <!-- Service Area -->
                 <div>
-                    <h4 class="text-lg font-semibold mb-4 text-secondary-teal">Service Area</h4>
-                    <p class="text-sm text-gray-300">We proudly serve all districts within Metropolis and the surrounding 10-mile radius.</p>
+                    <h4 class="text-lg font-semibold mb-4 text-secondary-teal">Hours</h4>
+                    <p class="text-sm text-gray-300">Mon-Fri: 7:00 AM - 7:00 PM</p>
+                    <p class="text-sm text-gray-300">Sat: 9:00 AM - 5:00 PM</p>
+                    <p class="text-sm text-gray-300">Sun: Closed</p>
                 </div>
             </div>
 
